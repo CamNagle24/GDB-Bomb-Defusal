@@ -1,0 +1,10 @@
+#! /bin/bash
+
+cc_check_out=$(./cc_check bits.s)
+echo $cc_check_out
+
+if [ -n "$cc_check_out" ]; then
+    echo "Calling convention check failed. EXPECT NO CREDIT."
+else
+    ./btest
+fi

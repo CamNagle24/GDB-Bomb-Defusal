@@ -1,0 +1,6 @@
+I am the mayor. I can do anything I want.
+100 75 25 50 -25 75
+15 450
+11 18
+gxdsfm YesSirMayIHaveAnother YesSirMayIHaveAnother
+Chrom Corrin Lucina
