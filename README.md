@@ -4,13 +4,21 @@ This was very similar to Project 2 where we utilized the restrictions on operato
 <img src="assets/AllFunctions.png" width="600">
 
 ### What I Learned
-- 
+- Assembly Code Analysis: Particularly in identifying instructions like cmp, jmp, and mov.
+
+- Debugging with GDB: Using step through, set breakpoints, and examining the program state to avoid triggering the bomb's explosion.
+
+- Reverse Engineering: Examining how a binary program operates without access to the source code, using tools like GDB and objdump.
+
+- Binary and Hexadecimal Understanding: Commonly used in low-level programming and debugging.
+
+- Use of Disassembly Tools: Used objdump to disassemble binary files and analyze their entire source code in assembly form.
 
 <img src="assets/FunctionsGDB.png" width="600">
 
 Also utilizing caller/callee-save registers
 
-With adjusting the size of the stack, also using push and pop?
+With adjusting the size of the stack, also using push and pop.
 
 <img src="assets/Bomb.png" width="600">
 
