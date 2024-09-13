@@ -15,9 +15,9 @@ This showed me how registers worked and the different operations we can do on th
 
 <img src="assets/AllFunctions.png" width="400"> <img src="assets/FunctionsGDB.png" width="400">
 
-In part 2 the goal is to defuse all the stages of a bomb without having it blow up to lose points. However, the trick is that when using the gdb you cannot see the C source code. You have to go line by line with a binary program in assembly stepping through/into its functions and loops.
+Part 2 Bomb! The goal is to defuse all the stages of a bomb without having it blow up to lose points. However, the trick is that when using the gdb you cannot see the C source code. You have to go line by line with a binary program in assembly stepping through/into its functions and loops.
 
-<img src="assets/Bomb.png" width="600">
+<img src="assets/bomb2.png" width="600">
 
 ### What I Learned
 - Assembly Code Analysis: Particularly in identifying instructions like cmp, jmp, and mov.
