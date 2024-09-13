@@ -17,6 +17,8 @@ This showed me how registers worked and the different operations we can do on th
 
 <img src="assets/AllFunctions.png" width="400"> <img src="assets/FunctionsGDB.png" width="400">
 
+In part 2 the goal is to defuse all the stages of a bomb without having it blow up to lose points. However, the trick is that when using the gdb you cannot see the C source code. You have to go line by line with a binary program in assembly stepping through/into its functions and loops.
+
 <img src="assets/Bomb.png" width="600">
 
 ### What I Learned
@@ -30,7 +32,7 @@ This showed me how registers worked and the different operations we can do on th
 
 - Use of Disassembly Tools: Used objdump to disassemble binary files and analyze their entire source code in assembly form.
 
-In part 2 the goal is to defuse all the stages of a bomb without having it blow up to lose points. However, the trick is that when using the gdb you cannot see the C source code. You have to go line by line with a binary program in assembly stepping through/into its functions and loops. This made me understand assembly a lot more because I could enable the registers and see what was in them after completing each line. I could jump to different functions and set breakpoints and ones I didn’t want to run, (like the explode_bomb function).
+This made me understand assembly a lot more because I could enable the registers and see what was in them after completing each line. I could jump to different functions and set breakpoints and ones I didn’t want to run, (like the explode_bomb function).
 
 ## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
 
