@@ -13,6 +13,8 @@ But this time we had to translate them into ASSEMBLY CODE line by line!
 
 This showed me how registers worked and the different operations we can do on them. It got me much more acquainted with the low-level details of x86 and also gave me a greater appreciation for the features of “high-level” languages like C.
 
+<img src="assets/bomb2.png" width="600">
+
 <img src="assets/AllFunctions.png" width="600">
 
 <img src="assets/FunctionsGDB.png" width="600">
