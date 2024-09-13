@@ -3,8 +3,6 @@ Part 1 of this project was very similar to Bitwise Puzzle where we utilized the 
 
 But this time we had to translate them into ASSEMBLY CODE line by line!
 
-<img src="assets/bomb2.png" width="600">
-
 ### What I Learned
 - x86-64 Assembly: Particularly Shifts and Bitwise Manipulation. Like, (shll, sarl, etc.) AND, OR, XOR, and NOT.
 - Register Usage: Understood the difference between caller-save and callee-save registers %rax, %rbx, %rcx, etc.,
@@ -31,6 +29,10 @@ In part 2 the goal is to defuse all the stages of a bomb without having it blow 
 - Binary and Hexadecimal Understanding: Commonly used in low-level programming and debugging.
 
 - Use of Disassembly Tools: Used objdump to disassemble binary files and analyze their entire source code in assembly form.
+
+Here is what it looks like below
+
+<img src="assets/Bomb.png" width="600">
 
 This made me understand assembly a lot more because I could enable the registers and see what was in them after completing each line. I could jump to different functions and set breakpoints and ones I didn’t want to run, (like the explode_bomb function).
 
