@@ -38,7 +38,7 @@ Here is what it looks like below
 
 This made me understand assembly a lot more because I could enable the registers and see what was in them after completing each line. I could jump to different functions and set breakpoints and ones I didn’t want to run, (like the explode_bomb function).
 
-## <a href="https://www.youtube.com/watch?v=UNz9k9E9IWM"> Demo Video on YouTube </a>
+## <a href="https://youtu.be/1Em_wO9VO98"> Demo Video on YouTube </a>
 
 ## Setup
 
