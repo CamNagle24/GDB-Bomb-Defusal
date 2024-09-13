@@ -3,6 +3,8 @@ Part 1 of this project was very similar to Bitwise Puzzle where we utilized the 
 
 But this time we had to translate them into ASSEMBLY CODE line by line!
 
+<img src="assets/AllFunctions.png" width="400">
+
 ### What I Learned
 - x86-64 Assembly: Particularly Shifts and Bitwise Manipulation. Like, (shll, sarl, etc.) AND, OR, XOR, and NOT.
 - Register Usage: Understood the difference between caller-save and callee-save registers %rax, %rbx, %rcx, etc.,
@@ -13,7 +15,7 @@ But this time we had to translate them into ASSEMBLY CODE line by line!
 
 This showed me how registers worked and the different operations we can do on them. It got me much more acquainted with the low-level details of x86 and also gave me a greater appreciation for the features of “high-level” languages like C.
 
-<img src="assets/AllFunctions.png" width="400"> <img src="assets/FunctionsGDB.png" width="400">
+<img src="assets/FunctionsGDB.png" width="400">
 
 Part 2 Bomb! The goal is to defuse all the stages of a bomb without having it blow up to lose points. However, the trick is that when using the gdb you cannot see the C source code. You have to go line by line with a binary program in assembly stepping through/into its functions and loops.
 
